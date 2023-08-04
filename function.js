@@ -79,8 +79,23 @@ function buyChocolete(num1, num2, num3) {
   let totalChocolatePrice = num1 + num2;
   let ferotTK = num3 - totalChocolatePrice ;
   console.log("total Chocolate Price", totalChocolatePrice);
-  return ferotTK;
+  return ("ferot tk", ferotTK);
 }
 // buyChocolete(150, 432);
 let total = buyChocolete(150, 432, 1000);
 console.log("total tk", total);
+
+
+
+// practice
+
+let time = prompt("Chad ki utche");
+// console.log(time);
+function isMoonUp(time){
+  if(time > 7){
+    return true
+  }
+  else{
+    return false
+  }
+}

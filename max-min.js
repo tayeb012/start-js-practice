@@ -42,3 +42,11 @@ else if(jahid>julu&jahid>shukur&jahid>mitu&jahid>luku&jahid>kobir){
 else{
 console.log('kobir is batter than all')
 }
+
+
+function maxInArray(number){
+    for(let i = 0; i<number.lenght)
+}
+
+const height =[343,334,32344,23434,334,2234,2345,455]
+const tallest = maxInArray(height)
